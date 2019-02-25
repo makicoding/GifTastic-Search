@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GifTastic</title>
+
+    <!-- Meyerweb CSS Reset Link -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">    
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+    <!-- Header -->
+    <h1>GIFTASTIC</h1>
+
+    <!-- Instructions -->
+    <p>Enter any keyword of your choice and hit search!  Upon clicking the search button, a total of ten Gifs will be displayed.</p>
+
+
+
+    <!-- jQuery Link and JavaScript Link must come here since "var btn" must appear after the Header,
+         and before class="newUserButtons" --> 
+
+    <!-- jQuery Link -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- JavaScript Link -->
+    <script src="assets/javascript/script.js"></script>
+
+
+
+    <!-- User keyword stored here -->
+    <p class="thisIsWhereIWillStoreUserKeyword" data-userkeywordstoredhere=""></p>
+    
+    <!-- Container for Gifs -->
+    <div class="gifsAppearHere"></div>
+
+</body>
+</html>
