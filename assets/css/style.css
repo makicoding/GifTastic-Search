@@ -35,7 +35,7 @@ body {
 
 
 .userInput1 {
-    width: 280px;
+    width: 160px;
     height: 30px;
 
     border: 0;
@@ -47,9 +47,9 @@ body {
     outline:0;
 
     position: fixed;
-    top: 130px;
+    top: 133px;
     left: 50%;
-    transform: translate(-144px, 0px);
+    transform: translate(-180px, 0px);
 }
 
 
@@ -72,9 +72,9 @@ body {
     outline:0;
 
     position: fixed;
-    top: 170px;
+    top: 120px;
     left: 50%;
-    transform: translate(-100px, 0px);
+    transform: translate(10px, 0px);
 }
 
 .userSearchButton:hover {
@@ -101,9 +101,9 @@ body {
     outline:0;
 
     position: fixed;
-    top: 170px;
+    top: 120px;
     left: 50%;
-    transform: translate(0px, 0px);
+    transform: translate(100px, 0px);
 }
 
 .inputBoxResetButton:hover {
