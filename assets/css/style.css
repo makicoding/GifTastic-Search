@@ -35,18 +35,21 @@ body {
 
 
 .userInput1 {
-    width: 175px;
-    height: 35px;
+    width: 280px;
+    height: 30px;
+
+    border: 0;
 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+    text-align: center;
 
     outline:0;
 
     position: fixed;
     top: 130px;
     left: 50%;
-    transform: translate(-177px, 0px);
+    transform: translate(-144px, 0px);
 }
 
 
@@ -69,9 +72,9 @@ body {
     outline:0;
 
     position: fixed;
-    top: 121px;
+    top: 170px;
     left: 50%;
-    transform: translate(0px, 0px);
+    transform: translate(-100px, 0px);
 }
 
 .userSearchButton:hover {
@@ -98,9 +101,9 @@ body {
     outline:0;
 
     position: fixed;
-    top: 121px;
+    top: 170px;
     left: 50%;
-    transform: translate(85px, 0px);
+    transform: translate(0px, 0px);
 }
 
 .inputBoxResetButton:hover {
@@ -123,7 +126,7 @@ body {
     /* Change background-color to see positioning */
 
     position: relative;
-    top: 190px;
+    top: 235px;
     left: 50%;
     transform: translate(-175px, 0px);
 
