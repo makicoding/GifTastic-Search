@@ -47,7 +47,7 @@ body {
     outline:0;
 
     position: fixed;
-    top: 133px;
+    top: 130px;
     left: 50%;
     transform: translate(-180px, 0px);
 }
@@ -74,7 +74,7 @@ body {
     position: fixed;
     top: 120px;
     left: 50%;
-    transform: translate(10px, 0px);
+    transform: translate(0px, 0px);
 }
 
 .userSearchButton:hover {
@@ -103,7 +103,7 @@ body {
     position: fixed;
     top: 120px;
     left: 50%;
-    transform: translate(100px, 0px);
+    transform: translate(90px, 0px);
 }
 
 .inputBoxResetButton:hover {
