@@ -1,0 +1,132 @@
+body {
+    background-color: #ffe96d;
+}
+
+.header {
+    width: 350px;
+
+    background-color: none;
+    /* Change background-color to see positioning */
+    color: magenta;
+    font-family: 'Faster One', cursive;
+    font-size: 50px;
+    text-align: center;
+
+    position: fixed;
+    top: 5px;
+    left: 50%;
+    transform: translate(-175px, 0px);
+
+}
+
+.instructions {
+    width: 350px;
+
+    color: magenta;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 1.2;
+
+    position: fixed;
+    top: 60px;
+    left: 50%;
+    transform: translate(-175px, 0px);
+}
+
+
+.userInput1 {
+    width: 175px;
+    height: 35px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+    outline:0;
+
+    position: fixed;
+    top: 130px;
+    left: 50%;
+    transform: translate(-177px, 0px);
+}
+
+
+.userSearchButton {
+    width: 80px;
+    height: 40px;
+
+    padding: 0px 2px 1px 0px;
+    border: 0;
+    border-radius: 5px;
+    margin: 10px;
+
+    color: white;
+    background-color: #2858f9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+
+    cursor: pointer;
+    outline:0;
+
+    position: fixed;
+    top: 121px;
+    left: 50%;
+    transform: translate(0px, 0px);
+}
+
+.userSearchButton:hover {
+    color: black;
+    background-color: rgb(85, 244, 255);
+}
+
+.inputBoxResetButton {
+    width: 80px;
+    height: 40px;
+
+    padding: 0px 2px 1px 0px;
+    border: 0;
+    border-radius: 5px;
+    margin: 10px;
+
+    color: white;
+    background-color: #2858f9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+
+    cursor: pointer;
+    outline:0;
+
+    position: fixed;
+    top: 121px;
+    left: 50%;
+    transform: translate(85px, 0px);
+}
+
+.inputBoxResetButton:hover {
+    color: black;
+    background-color: rgb(85, 244, 255);
+}
+
+
+.imageContainer {
+    width: 350px;
+}
+
+.overallGifContainer {
+    width: 350px;
+
+    border: 0;
+    margin: 0px 0px 20px 0px;
+
+    background-color: none;
+    /* Change background-color to see positioning */
+
+    position: relative;
+    top: 190px;
+    left: 50%;
+    transform: translate(-175px, 0px);
+
+    z-index: -1;
+}
+

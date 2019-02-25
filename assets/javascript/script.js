@@ -3,7 +3,7 @@ console.log("JavaScript is connected!");
 
 
 // ----------------------------------------
-// USER INPUT BOX, SEARCH BUTTON, AND STORING USER KEYWORD TO DATA ATTRIBUTE
+// USER INPUT BOX, SEARCH BUTTON, STORE USER KEYWORD TO DATA ATTRIBUTE, RESET BUTTON
 
 // Input Box
 var inputBox = document.createElement("input");                     // Create <input> element
@@ -29,6 +29,24 @@ function storeUserKeyword(){
     document.getElementsByClassName("thisIsWhereIWillStoreUserKeyword")[0].setAttribute("data-userkeywordstoredhere", storeUserInput);  // User input is set (i.e. stored to) the data attribute "data-userkeywordstoredhere" ("userkeywordstorehere" must be all lowercase! This is a rule for data- attribute to work)
     console.log(storeUserInput);
     getFromApi();                                                                                                                       // The function getFromApi() is then called
+}
+
+
+
+// Reset Button. When the user clicks resetButton, the function emptyInputBox is called
+var resetButton = document.createElement("button");                 // Create <button> element
+resetButton.setAttribute("class", "inputBoxResetButton");           // Set Attribute for resetButton to have class="inputBoxResetButton"
+var resetButtonText = document.createTextNode("Reset");             // Create a text node 
+resetButton.appendChild(resetButtonText);                           // Append the text to resetButton
+document.body.appendChild(resetButton);                             // Append resetButton to body of page
+resetButton.addEventListener("click", emptyInputBoxAndGifs);               // Add an event listener.  When user clicks, the function emptyInputBox is called.
+
+
+
+// Function to empty input box
+function emptyInputBoxAndGifs() {
+    document.getElementsByClassName("userInput1")[0].value = ""             // .value here refers to the text inside the input box which will now be emptied
+    document.getElementsByClassName("gifsAppearHere")[0].innerHTML = ""     // innerHTML of class="gifsAppearHere" will now be emptied
 }
 
 
