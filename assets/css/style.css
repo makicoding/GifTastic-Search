@@ -47,14 +47,14 @@ body {
     outline:0;
 
     position: fixed;
-    top: 130px;
+    top: 190px;
     left: 50%;
-    transform: translate(-180px, 0px);
+    transform: translate(-170px, 0px);
 }
 
 
 .userSearchButton {
-    width: 80px;
+    width: 70px;
     height: 40px;
 
     padding: 0px 2px 1px 0px;
@@ -72,7 +72,7 @@ body {
     outline:0;
 
     position: fixed;
-    top: 120px;
+    top: 180px;
     left: 50%;
     transform: translate(0px, 0px);
 }
@@ -82,8 +82,13 @@ body {
     background-color: rgb(85, 244, 255);
 }
 
+.userSearchButton:focus {
+    color: white;
+    background-color: #2858f9;
+}
+
 .inputBoxResetButton {
-    width: 80px;
+    width: 70px;
     height: 40px;
 
     padding: 0px 2px 1px 0px;
@@ -101,9 +106,9 @@ body {
     outline:0;
 
     position: fixed;
-    top: 120px;
+    top: 180px;
     left: 50%;
-    transform: translate(90px, 0px);
+    transform: translate(80px, 0px);
 }
 
 .inputBoxResetButton:hover {
