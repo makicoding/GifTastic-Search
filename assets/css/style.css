@@ -42,7 +42,6 @@ body {
 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    text-align: center;
 
     outline:0;
 
@@ -74,17 +73,12 @@ body {
     position: fixed;
     top: 180px;
     left: 50%;
-    transform: translate(0px, 0px);
+    transform: translate(10px, 0px);
 }
 
 .userSearchButton:hover {
     color: black;
     background-color: rgb(85, 244, 255);
-}
-
-.userSearchButton:focus {
-    color: white;
-    background-color: #2858f9;
 }
 
 .inputBoxResetButton {
@@ -108,7 +102,7 @@ body {
     position: fixed;
     top: 180px;
     left: 50%;
-    transform: translate(80px, 0px);
+    transform: translate(90px, 0px);
 }
 
 .inputBoxResetButton:hover {
