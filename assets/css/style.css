@@ -38,7 +38,9 @@ body {
     width: 350px;
 
     color: magenta;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Sunflower', sans-serif;
+    letter-spacing: 0.9px;
+    font-size: 16px;
     text-align: center;
     line-height: 1.2;
 
@@ -55,7 +57,8 @@ body {
 
     border: 0;
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Sunflower', sans-serif;
+    letter-spacing: 0.9px;
     font-size: 20px;
 
     outline:0;
@@ -78,7 +81,8 @@ body {
 
     color: white;
     background-color: #2858f9;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Sunflower', sans-serif;
+    letter-spacing: 0.9px;
     font-size: 14px;
     text-align: center;
 
@@ -107,7 +111,8 @@ body {
 
     color: white;
     background-color: #2858f9;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Sunflower', sans-serif;
+    letter-spacing: 0.9px;
     font-size: 14px;
     text-align: center;
 
